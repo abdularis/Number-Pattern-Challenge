@@ -1,4 +1,4 @@
-Input constraints: 2 <= n to whatever
+Input constraints: 2 <= n <= ~
 
 example input: 2
 output:
