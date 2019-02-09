@@ -1,7 +1,8 @@
 Input constraints: 2 <= n <= ~
 
 example input: 2
-output:
+
+*output:*
 ```
   x
 x o x
@@ -10,7 +11,8 @@ x o x
 
 
 example input: 3
-output:
+
+*output:*
 ```
     x
     o x
@@ -21,7 +23,8 @@ x o x o x
 
 
 example input: 4
-output:
+
+*output:*
 ```
       x
       o x
@@ -30,4 +33,24 @@ x o x o x o x
   x o x
     x o
       x
+```
+
+
+example input: 7
+
+*output:*
+```
+            x             
+            o x           
+            x o x         
+            o x o x       
+            x o x o x     
+            o x o x o x   
+x o x o x o x o x o x o x 
+  x o x o x o             
+    x o x o x             
+      x o x o             
+        x o x             
+          x o             
+            x             
 ```
