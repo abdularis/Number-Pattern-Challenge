@@ -13,13 +13,12 @@ public class Main2 {
     }
 
     public static void p2(int start, int end, int current) {
-        p1(start, end, 0, current);
-        System.out.println();
-        
-        if (current > (end - start + 1)) {
+        if (current > (end - start)) {
             return;
         }
 
+        p1(start, end, 0, current + start);
+        System.out.println();
         p2(start, end, current + 1);
     }
     
@@ -27,6 +26,6 @@ public class Main2 {
         int start = 2;
         int end = 7;
 
-        p2(start, end, start);
+        p2(start, end, 0);
     }
 }
